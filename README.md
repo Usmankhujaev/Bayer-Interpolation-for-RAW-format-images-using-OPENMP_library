@@ -5,6 +5,8 @@ It is a color filter array for arranging Red, Green and Blue color filters.
 Invented by Bryce Bayer in 1976
 The Bayer filter is almost universal on consumer digital cameras
 
+![Alt text](/bayer.png)
+
 Tasks performed
 1) Load the .raw format image 
 2) Read the file and store in a one-dimensional array
