@@ -5,7 +5,7 @@ It is a color filter array for arranging Red, Green and Blue color filters.
 Invented by Bryce Bayer in 1976
 The Bayer filter is almost universal on consumer digital cameras
 
-![Alt text](/bayer.png)
+![Alt text](/images/bayer.png)
 
 Tasks performed
 1) Load the .raw format image 
@@ -21,17 +21,17 @@ Tasks performed
 
 Channel separation
 
-![Alt text](/bayer_3.jpg)
+![Alt text](/images/bayer_3.jpg)
 
 Missing pixel values is filled by averaging the values of each channel 
 
 
 
 Averaging formula for red and blue channels
-![Alt text](/bayer_4.PNG)
+![Alt text](/images/bayer_4.PNG)
 
 Averaging formula for green channel
-![Alt text](/bayer_5.png)
+![Alt text](/images/bayer_5.png)
 
 
 
