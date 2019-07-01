@@ -35,4 +35,4 @@ Averaging formula for green channel
 
 
 
-
+For detailed information check this file
