@@ -27,7 +27,11 @@ Missing pixel values is filled by averaging the values of each channel
 
 
 
+Averaging formula for red and blue channels
+![Alt text](/bayer_4.PNG)
 
+Averaging formula for green channel
+![Alt text](/bayer_5.png)
 
 
 
