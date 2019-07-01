@@ -35,4 +35,4 @@ Averaging formula for green channel
 
 
 
-For detailed information check this file [a link](https://github.com/Usmankhujaev/Bayer-Interpolation-for-RAW-format-images-using-OPENMP_library/blob/master/Bayer%20Interpolation%20using%20OpenMP.pdf)
+For detailed information check [this file](https://github.com/Usmankhujaev/Bayer-Interpolation-for-RAW-format-images-using-OPENMP_library/blob/master/Bayer%20Interpolation%20using%20OpenMP.pdf)
