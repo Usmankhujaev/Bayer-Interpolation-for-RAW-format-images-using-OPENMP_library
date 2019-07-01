@@ -17,7 +17,7 @@ Tasks performed
 7) Interpolate using OpenMP
 8) Convert to OpenCV Mat format
 9) Save the image
-10) Create the GUI using Qt
+
 
 Channel separation
 
