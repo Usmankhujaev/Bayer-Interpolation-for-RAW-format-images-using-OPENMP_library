@@ -19,4 +19,16 @@ Tasks performed
 9) Save the image
 10) Create the GUI using Qt
 
+Channel separation
+
+![Alt text](/bayer_3.jpg)
+
+Missing pixel values is filled by averaging the values of each channel 
+
+
+
+
+
+
+
 
