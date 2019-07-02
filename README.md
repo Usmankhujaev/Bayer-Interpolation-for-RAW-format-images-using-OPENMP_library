@@ -43,3 +43,5 @@ run interpolation.cpp and enjoy.
 disclaimer:
 
 before running the code make sure that opencv is installed in your pc. I have performed this code on my Visual Studio 2017 and there is a OMP support in any version of Visual Studio. Just go to project properties -> C/C++ -> Language -> Open MP support -> Yes. 
+
+For more information [OpenMP link](https://www.openmp.org/) will help you
