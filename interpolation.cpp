@@ -361,7 +361,7 @@ int main()
 			matrix.at<Vec3w>(r, c) = vec;
 		}
 	}
-	//imshow("mas", matrix);  //printing the image
+	imshow("mas", matrix);  //printing the image
 	//imwrite("result.png", matrix);// saving image in png format
 	saveFile10bit("said.raw", data_new, width, height);
 	cout << "Processing time serial: " << procTime*1000 <<"msec" <<  endl; //calculating time for serial
