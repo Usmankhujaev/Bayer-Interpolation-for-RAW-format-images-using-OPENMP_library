@@ -36,3 +36,10 @@ Averaging formula for green channel
 
 
 For detailed information check [this file](https://github.com/Usmankhujaev/Bayer-Interpolation-for-RAW-format-images-using-OPENMP_library/blob/master/Bayer%20Interpolation%20using%20OpenMP.pdf)
+
+I have provided the RAW format image for you to test the code.
+run interpolation.cpp and enjoy.
+
+disclaimer:
+
+before running the code make sure that opencv is installed in your pc. I have performed this code on my Visual Studio 2017 and there is a OMP support in any version of Visual Studio. Just go to project properties -> C/C++ -> Language -> Open MP support -> Yes. 
