@@ -7,7 +7,7 @@ The Bayer filter is almost universal on consumer digital cameras
 
 ![Alt text](/images/bayer.png)
 
-Tasks performed
+### Tasks performed
 1) Load the .raw format image 
 2) Read the file and store in a one-dimensional array
 3) Allocate the memory space for image
@@ -19,7 +19,7 @@ Tasks performed
 9) Save the image
 
 
-Channel separation
+### Channel separation
 
 ![Alt text](/images/bayer_3.jpg)
 
