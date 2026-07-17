@@ -38,10 +38,30 @@ Averaging formula for green channel
 For detailed information check [this file](https://github.com/Usmankhujaev/Bayer-Interpolation-for-RAW-format-images-using-OPENMP_library/blob/master/Bayer%20Interpolation%20using%20OpenMP.pdf)
 
 I have provided the RAW format image for you to test the code.
-run interpolation.cpp and enjoy.
 
-### Disclaimer:
+### Building and running (C++)
 
-before running the code make sure that opencv is installed in your pc. I have performed this code on my Visual Studio 2017 and there is a OMP support in any version of Visual Studio. Just go to project properties -> C/C++ -> Language -> Open MP support -> Yes. 
+OpenCV is now optional — the program always writes `result.ppm` (viewable image) and `said.raw` (16-bit B,G,R data). Compile with `-DUSE_OPENCV` (plus OpenCV include/link flags) to also get the `imshow` window and `result.png`.
 
-For more information [OpenMP link](https://www.openmp.org/) will help you
+macOS (Homebrew `libomp` required: `brew install libomp`):
+```sh
+clang++ -O2 -std=c++11 interpolation.cpp -o interpolation \
+    -Xclang -fopenmp -I/opt/homebrew/opt/libomp/include \
+    -L/opt/homebrew/opt/libomp/lib -lomp
+./interpolation
+```
+
+Linux:
+```sh
+g++ -O2 -fopenmp interpolation.cpp -o interpolation
+./interpolation
+```
+
+Visual Studio: enable OpenMP under project properties -> C/C++ -> Language -> Open MP support -> Yes. For more information see the [OpenMP link](https://www.openmp.org/).
+
+### Python version
+
+`interpolation.py` is a numpy translation of the same algorithm (vectorised numpy operations take the place of OpenMP). It produces byte-identical output (`said_py.raw`) and saves a PNG preview:
+```sh
+python3 interpolation.py
+```
